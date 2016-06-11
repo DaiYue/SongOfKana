@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FEC7EB31D0C5A8A00E49884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC7EB21D0C5A8A00E49884 /* AppDelegate.swift */; };
+		9FEC7EB51D0C5A8A00E49884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC7EB41D0C5A8A00E49884 /* ViewController.swift */; };
+		9FEC7EB81D0C5A8A00E49884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC7EB61D0C5A8A00E49884 /* Main.storyboard */; };
+		9FEC7EBA1D0C5A8A00E49884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC7EB91D0C5A8A00E49884 /* Assets.xcassets */; };
+		9FEC7EBD1D0C5A8A00E49884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC7EBB1D0C5A8A00E49884 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FEC7EAF1D0C5A8A00E49884 /* SongOfKana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongOfKana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEC7EB21D0C5A8A00E49884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FEC7EB41D0C5A8A00E49884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FEC7EB71D0C5A8A00E49884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FEC7EB91D0C5A8A00E49884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FEC7EBC1D0C5A8A00E49884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FEC7EBE1D0C5A8A00E49884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FEC7EAC1D0C5A8A00E49884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FEC7EA61D0C5A8A00E49884 = {
+			isa = PBXGroup;
+			children = (
+				9FEC7EB11D0C5A8A00E49884 /* SongOfKana */,
+				9FEC7EB01D0C5A8A00E49884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FEC7EB01D0C5A8A00E49884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FEC7EAF1D0C5A8A00E49884 /* SongOfKana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FEC7EB11D0C5A8A00E49884 /* SongOfKana */ = {
+			isa = PBXGroup;
+			children = (
+				9FEC7EB21D0C5A8A00E49884 /* AppDelegate.swift */,
+				9FEC7EB41D0C5A8A00E49884 /* ViewController.swift */,
+				9FEC7EB61D0C5A8A00E49884 /* Main.storyboard */,
+				9FEC7EB91D0C5A8A00E49884 /* Assets.xcassets */,
+				9FEC7EBB1D0C5A8A00E49884 /* LaunchScreen.storyboard */,
+				9FEC7EBE1D0C5A8A00E49884 /* Info.plist */,
+			);
+			path = SongOfKana;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FEC7EAE1D0C5A8A00E49884 /* SongOfKana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEC7EC11D0C5A8A00E49884 /* Build configuration list for PBXNativeTarget "SongOfKana" */;
+			buildPhases = (
+				9FEC7EAB1D0C5A8A00E49884 /* Sources */,
+				9FEC7EAC1D0C5A8A00E49884 /* Frameworks */,
+				9FEC7EAD1D0C5A8A00E49884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongOfKana;
+			productName = SongOfKana;
+			productReference = 9FEC7EAF1D0C5A8A00E49884 /* SongOfKana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FEC7EA71D0C5A8A00E49884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "FindTheLamp Studio";
+				TargetAttributes = {
+					9FEC7EAE1D0C5A8A00E49884 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9FEC7EAA1D0C5A8A00E49884 /* Build configuration list for PBXProject "SongOfKana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FEC7EA61D0C5A8A00E49884;
+			productRefGroup = 9FEC7EB01D0C5A8A00E49884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FEC7EAE1D0C5A8A00E49884 /* SongOfKana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FEC7EAD1D0C5A8A00E49884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEC7EBD1D0C5A8A00E49884 /* LaunchScreen.storyboard in Resources */,
+				9FEC7EBA1D0C5A8A00E49884 /* Assets.xcassets in Resources */,
+				9FEC7EB81D0C5A8A00E49884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FEC7EAB1D0C5A8A00E49884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEC7EB51D0C5A8A00E49884 /* ViewController.swift in Sources */,
+				9FEC7EB31D0C5A8A00E49884 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FEC7EB61D0C5A8A00E49884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEC7EB71D0C5A8A00E49884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FEC7EBB1D0C5A8A00E49884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEC7EBC1D0C5A8A00E49884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FEC7EBF1D0C5A8A00E49884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FEC7EC01D0C5A8A00E49884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FEC7EC21D0C5A8A00E49884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SongOfKana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.findthelamp.SongOfKana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FEC7EC31D0C5A8A00E49884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SongOfKana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.findthelamp.SongOfKana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FEC7EAA1D0C5A8A00E49884 /* Build configuration list for PBXProject "SongOfKana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEC7EBF1D0C5A8A00E49884 /* Debug */,
+				9FEC7EC01D0C5A8A00E49884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEC7EC11D0C5A8A00E49884 /* Build configuration list for PBXNativeTarget "SongOfKana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEC7EC21D0C5A8A00E49884 /* Debug */,
+				9FEC7EC31D0C5A8A00E49884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FEC7EA71D0C5A8A00E49884 /* Project object */;
+}
