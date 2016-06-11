@@ -12,6 +12,7 @@
 		9FEC7EB81D0C5A8A00E49884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC7EB61D0C5A8A00E49884 /* Main.storyboard */; };
 		9FEC7EBA1D0C5A8A00E49884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC7EB91D0C5A8A00E49884 /* Assets.xcassets */; };
 		9FEC7EBD1D0C5A8A00E49884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC7EBB1D0C5A8A00E49884 /* LaunchScreen.storyboard */; };
+		9FEC7EC61D0C5E2400E49884 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FEC7EC51D0C5E2400E49884 /* song1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9FEC7EB91D0C5A8A00E49884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FEC7EBC1D0C5A8A00E49884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FEC7EBE1D0C5A8A00E49884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEC7EC51D0C5E2400E49884 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		9FEC7EB11D0C5A8A00E49884 /* SongOfKana */ = {
 			isa = PBXGroup;
 			children = (
+				9FEC7EC41D0C5DFD00E49884 /* Songs */,
 				9FEC7EB21D0C5A8A00E49884 /* AppDelegate.swift */,
 				9FEC7EB41D0C5A8A00E49884 /* ViewController.swift */,
 				9FEC7EB61D0C5A8A00E49884 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				9FEC7EBE1D0C5A8A00E49884 /* Info.plist */,
 			);
 			path = SongOfKana;
+			sourceTree = "<group>";
+		};
+		9FEC7EC41D0C5DFD00E49884 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				9FEC7EC51D0C5E2400E49884 /* song1.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 				9FEC7EBD1D0C5A8A00E49884 /* LaunchScreen.storyboard in Resources */,
 				9FEC7EBA1D0C5A8A00E49884 /* Assets.xcassets in Resources */,
 				9FEC7EB81D0C5A8A00E49884 /* Main.storyboard in Resources */,
+				9FEC7EC61D0C5E2400E49884 /* song1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
